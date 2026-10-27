@@ -1,0 +1,30 @@
+KIT PWA — SOLplay
+Gerado pelo Aurora APK Gerador (Criado por: Claude (Anthropic))
+
+O QUE TEM NO PACOTE
+  index.html ........ seu app (já com manifest e service worker ligados)
+  manifest.json ..... nome, cores, orientação e ícones
+  sw.js ............. guarda o esqueleto do app pra abrir mais rápido
+  icon-192.png, icon-512.png, icon-512-maskable.png
+  .nojekyll ......... evita que o GitHub Pages mexa nos arquivos
+
+PASSO A PASSO (o caminho que você já conhece)
+ 1. No GitHub, crie um repositório PÚBLICO novo (ex.: solplay).
+ 2. Envie TODOS os arquivos deste pacote (Add file > Upload files), na raiz do repositório.
+ 3. Settings > Pages > Deploy from a branch > main / (root) > Save.
+ 4. Espere 1 a 2 minutos. O endereço será: https://SEU-USUARIO.github.io/solplay/
+ 5. Abra o endereço no Chrome do celular e confira se o app abre.
+ 6. Em pwabuilder.com, cole o endereço e toque em Start.
+ 7. Package for stores > Android. Confira nome ("SOLplay"), ID do pacote (sugestão: com.aurora.solplay) e gere.
+ 8. Baixe o ZIP: o arquivo .apk está dentro. Instale no aparelho.
+
+ATENÇÃO — SERVIDOR http://
+ O PWA roda em https. O navegador BLOQUEIA páginas https de acessarem servidores http://
+ (é o caso da maioria dos painéis IPTV). Se o app abrir mas não carregar canais/filmes,
+ é isso. Soluções: use o formato "Kit Sketchware" (WebView aceita http), ou um servidor https.
+
+ATENÇÃO — PRIVACIDADE
+ Se o HTML tem usuário e senha de IPTV escritos dentro, o repositório PÚBLICO vai expor isso.
+ Prefira apps que pedem o login na tela, ou use repositório privado (Pages privado exige plano pago).
+
+Criado por: Claude (Anthropic)
